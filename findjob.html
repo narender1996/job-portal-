@@ -1,0 +1,211 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <style>
+      #myCarousel{margin-top: 20px;}
+      </style>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <script src="https://kit.fontawesome.com/6ec612354c.js"></script>
+   <!-- <link rel="stylesheet" type="text/css" href="jobapply.css">-->
+
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<!--css file link-->
+<link href="jobapply.css" rel="stylesheet"> 
+
+
+<title>job apply</title>
+  </head>
+  <body>
+    
+    <nav class="navbar navbar-expand-lg navbar-light bg-light  fixed-top" >
+        <a class="navbar-brand" href="#">Jobapply</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsupportedcontent" 
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="oi oi-menu"></span>menu
+        </button>
+      
+        <div class="collapse navbar-collapse " id="navbarsupportedcontent">
+          <ul class="navbar-nav mr-auto ">
+            <li class="nav-item active m-3">
+              <a class="nav-link" href="jobapply.html">Home <span class="sr-only ">(current)</span></a>
+            </li>
+            <li class="nav-item m-3">
+              <a class="nav-link " href="#">Aboutus</a>
+            </li>
+            <li class="nav-item dropdown m-3">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              candidate
+            </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">fulltime</a>
+                <a class="dropdown-item" href="#">parttime</a>
+                <a class="dropdown-item" href="#">fresher</a>
+                <a class="dropdown-item" href="#">internship</a>
+
+                
+              </div>
+            </li>
+            <li class="nav-item m-3">
+              <a class="nav-link " href="contactus.html" tabindex="-1" aria-disabled="true">Contact us</a>
+            </li>
+                    
+<a href="postjob.html"><button class="btn btn-primary mr-4 p-3 col-sm-8 mb-xm-5 col-lg-10" id="job">Post a job</button></a>
+<br>
+  <a href="resume.html"><button" class="btn btn-primary mr-4 p-3 col-sm-8 col-lg-10 mb-xm-5  " data-toggle="modal" data-target="#exampleModalScrollable">
+  Find job
+</button></a>
+<br>
+
+<a href="signin.html">  <button class="btn btn-outline-primary ml-lg-2 ml-sm-0 p-3 col-sm-8 col-lg-12 " id="signin">Sign in</button></a>
+<br>
+<a href="signup.html">  <button class="btn btn-outline-danger col-lg-12  ml-lg-3 mt-0 p-3 col-sm-8 ml-sm-1" id="signup" >sign up</button></a>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+
+              <a href="#"><i class="fa fa-user  mr-5 mt-0 mb-3" style="color:black; font-size: 40px "></i></a>
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Logout</button>
+          </form>
+        </div>
+      </nav>
+      <br>
+      <br>
+      <br>
+
+
+ <div class="container-fluid mt-lg-5">
+     <div class="row" style="height: 100px; width:80%;">     
+           <div class="col-lg-12 ml-lg-4"> <h2>job search</h2>
+        <span><h6>see search result</h6></span>
+ </div>
+ </div>
+ </div>
+
+<div class="jumbotron">
+    <div class="row">
+        <div class="col-lg-10 col-sm-8 ml-lg-5 mr-lg-5">
+                <form>
+                        <div class="row">
+                          <div class="col-3 rounded-circle  ">
+                            <input type="text" class="form-control" placeholder="job title/description">
+                          </div>
+                          <div class="col-3">
+                            <input type="text" class="form-control" placeholder="Location">
+                          </div>
+                          <div class="col-3">
+                            
+                                <input type="text" class="form-control" placeholder="">
+                              </div>
+                              <div class="col-3">
+                                    <button  class="form-control btn btn-info" >search</button>
+                                  </div>
+                        
+
+                        <div class="row2 mt-5" >
+                                <div class="custom-control custom-checkbox">
+                                        <input type="checkbox" class="custom-control-input" id="customCheck1">
+                                        <label class="custom-control-label" for="customCheck1">Full Time</label>
+                                      </div>
+                                      <div class="custom-control custom-checkbox">
+                                            <input type="checkbox" class="custom-control-input" id="customCheck2">
+                                            <label class="custom-control-label" for="customCheck2">half Time</label>
+                                          </div>
+
+                                          <div class="custom-control custom-checkbox">
+                                                <input type="checkbox" class="custom-control-input" id="customCheck3">
+                                                <label class="custom-control-label" for="customCheck3">Freelancer</label>
+                                              </div>
+
+                                              <div class="form-group col-lg-61">
+                                                <label for="formControlRange">Salary</label>
+                                                <input type="range" class="form-control-range" id="formControlRange">
+                                              </div>                                    
+                            
+                        </div>
+                      </form>
+                    </div>
+    </div>
+</div>
+</div>
+
+                    
+                      
+
+                      <div class="site-section">
+                            <div class="container">
+                            <div class="row">
+                            <div class="col-md-6 mx-auto text-center mb-5 section-heading">
+                            <h2 class="mb-5 mt-lg-5">Popular Categories</h2>
+                            </div>
+                            </div>
+                            <div class="row">
+                            <div class="col-sm-6 col-md-4 col-lg-3 mb-3 box shadow p-4  "  id="box1" data-aos="fade-up" data-aos-delay="100">
+                            <a href="#" class="h-100 feature-item">
+                                
+                            <span class="d-block icon fa fa-calculator mb-3 text-primary" style="font-size: 50px; margin-left: 100px;"></span>
+                            <h6 style="text-align: center">Accounting / Finanace</h6>
+                            <span class="counting badge bg-info p-2 text-white" style="margin-left:100px;" >10,391</span>
+                            </a>
+                            </div>
+                            <div class="col-sm-6 col-md-4 col-lg-3 mb-3 box shadow p-4  " data-aos="fade-up" data-aos-delay="200" id="box2">
+                            <a href="#" class="h-100 feature-item">
+                            <span class="d-block icon  fa fa-university mb-3 text-primary" style="font-size: 50px; margin-left: 100px;"></span>
+                            <h6 style="text-align: center">Teachers</h6>
+                            <span class="counting badge bg-info p-2 text-white" style="margin-left:100px;">192</span>
+                            </a>
+                            </div>
+                            <div class="col-sm-6 col-md-4 col-lg-3 mb-3 box shadow p-4" data-aos="fade-up" data-aos-delay="300" id="box3">
+                            <a href="#" class="h-100 feature-item">
+                            <span class="d-block icon fa fa-building-o mb-3 text-primary" style="font-size: 50px; margin-left: 100px;"></span>
+                            <h6 style="text-align: center">Construction / Facilities</h6>
+                            <span class="counting badge bg-info p-2 text-white" style="margin-left:100px;">1,021</span>
+                            </a>
+                            </div>
+                            <div class="col-sm-6 col-md-4 col-lg-3 mb-3 box shadow p-4 " data-aos="fade-up" data-aos-delay="400" id="box4">
+                            <a href="#" class="h-100 feature-item">
+                            <span class="d-block icon fa fa-phone mb-3 text-primary" style="font-size: 50px; margin-left: 100px;"></span>
+                            <h6 style="text-align: center">Telecommunications</h6>
+                            <span class="counting badge bg-info p-2 text-white" style="margin-left:100px;">1,219</span>
+                            </a>
+                            </div>
+                            <div class="col-sm-6 col-md-4 col-lg-3 mb-3 box shadow  p-4" data-aos="fade-up" data-aos-delay="500" id="box5">
+                            <a href="#" class="h-100 feature-item">
+                            <span class="d-block icon fa fa-heartbeat mb-3 text-primary" style="font-size: 50px; margin-left: 100px;"></span>
+                            <h6 style="text-align: center">Healthcare</h6>
+                            <span class="counting badge bg-info p-2 text-white" style="margin-left:100px;">482</span>
+                            </a>
+                            </div>
+                            <div class="col-sm-6 col-md-4 col-lg-3 mb-3 box shadow p-4 " data-aos="fade-up" data-aos-delay="600" id="box6">
+                            <a href="#" class="h-100 feature-item">
+                            <span class="d-block icon fa fa-calculator mb-3 text-primary" style="font-size: 50px; margin-left: 100px;" ></span>
+                            <h6 style="text-align: center">Design, Art &amp; Multimedia</h6>
+                            <span class="counting badge bg-info p-2 text-white" style="margin-left:100px;">5,409</span>
+                            </a>
+                            </div>
+                            <div class="col-sm-6 col-md-4 col-lg-3 mb-3 box shadow p-4 " data-aos="fade-up" data-aos-delay="700" id="box7">
+                            <a href="#" class="h-100 feature-item">
+                            <span class="d-block icon fa fa-bus mb-3 text-primary" style="font-size: 50px; margin-left: 100px;"></span>
+                            <h6 style="text-align: center">Transportation</h6>
+                            <span class="counting badge bg-info p-2 text-white" style="margin-left:100px;">291</span>
+                            </a>
+                            </div>
+                            <div class="col-sm-6 col-md-4 col-lg-3 mb-3 box shadow  p-4" data-aos="fade-up" data-aos-delay="800" id="box8">
+                            <a href="#" class="h-100 feature-item">
+                            <span class="d-block icon fa fa-glass mb-3 text-primary" style="font-size: 50px; margin-left: 100px;"></span>
+                            <h6 style="text-align: center">Restaurant / Food Service</h6>
+                            <span class="counting badge bg-info p-2 text-white" style="margin-left:100px;">329</span>
+                            </a>
+                            </div>
+                            </div>
+                            </div>
+                            </div>
+        </div> 
+    </div>
+</div>
